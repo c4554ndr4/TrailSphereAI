@@ -22,7 +22,7 @@
                 <a href="#security" class="nav-link">Security</a>
                 <a href="#pricing" class="nav-link">Pricing</a>
                 <a href="#contact" class="nav-link">Contact</a>
-                <button class="cta-button">Request Demo</button>
+                <a href="https://cal.com/c4554ndr4/30min" class="cta-button" target="_blank">Schedule Demo</a>
             </div>
             <div class="hamburger">
                 <span></span>
@@ -54,10 +54,10 @@
                         <i class="fas fa-rocket"></i>
                         Start Free Trial
                     </button>
-                    <button class="secondary-button">
-                        <i class="fas fa-play"></i>
-                        Watch Demo
-                    </button>
+                    <a href="https://cal.com/c4554ndr4/30min" class="secondary-button" target="_blank">
+                        <i class="fas fa-calendar"></i>
+                        Schedule Demo
+                    </a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -453,10 +453,10 @@
                         <i class="fas fa-rocket"></i>
                         Start Free Trial
                     </button>
-                    <button class="secondary-button large">
+                    <a href="https://cal.com/c4554ndr4/30min" class="secondary-button large" target="_blank">
                         <i class="fas fa-calendar"></i>
                         Schedule Demo
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -470,30 +470,30 @@
                     <h3>Get in Touch</h3>
                     <p>Ready to see how TrialSphere AI can supplement your clinical research workflows?</p>
                     <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>hello@trialsphere.ai</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>+1 (555) 123-4567</span>
-                    </div>
-                    <div class="contact-item">
                         <i class="fas fa-calendar"></i>
-                        <span>Schedule a demo</span>
+                        <span><a href="https://cal.com/c4554ndr4/30min" target="_blank" style="color: #667eea; text-decoration: none;">Schedule a demo to see TrialSphere AI in action</a></span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Secure deployment in your infrastructure</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Pay only for what you use</span>
                     </div>
                 </div>
-                <form class="contact-form">
+                <form class="contact-form" action="mailto:cassandra@melax.com" method="post" enctype="text/plain">
                     <div class="form-group">
-                        <input type="text" placeholder="Full Name" required>
+                        <input type="text" name="name" placeholder="Full Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Email Address" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Company">
+                        <input type="text" name="company" placeholder="Company">
                     </div>
                     <div class="form-group">
-                        <select required>
+                        <select name="current_tools" required>
                             <option value="">Current AI Tools Used</option>
                             <option value="microsoft-copilot">Microsoft Copilot</option>
                             <option value="chatgpt-enterprise">ChatGPT Enterprise</option>
@@ -503,7 +503,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="What limitations are you facing with your current AI tools?" rows="4"></textarea>
+                        <textarea name="limitations" placeholder="What limitations are you facing with your current AI tools?" rows="4"></textarea>
                     </div>
                     <button type="submit" class="submit-button">
                         <i class="fas fa-paper-plane"></i>
